@@ -45,10 +45,10 @@ sections:
         folders:
           - "events"
     design:
-      view: "compact"
+      view: "date-title-summary"
       fill_image: false
-      columns: 4
-      # css_style: "max-height: 30vh"
+      columns: 3
+      css_style: "max-height: 30vh"
     ce: "section-talks"
     id: "talks"
     As: "section-3218d076"
