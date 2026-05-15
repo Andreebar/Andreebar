@@ -6,4 +6,6 @@
 
 - Add some information about phairilab. 
 
-- Improve the Bio to me more expresive about who you are. 
+- Improve the Bio to me more expresive about who you are.
+
+- Put longer names on the talks so it is very specific and easy to see where the conference was and what the context was.
