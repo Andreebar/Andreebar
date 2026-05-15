@@ -45,7 +45,7 @@ sections:
         folders:
           - "events"
     design:
-      view: "article-grid"
+      view: "list"
       fill_image: false
       columns: 4
       css_style: "fill_image: false"
