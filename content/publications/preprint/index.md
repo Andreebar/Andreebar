@@ -1,76 +1,68 @@
 ---
-title: "An example preprint / working paper"
+title: "The contact process on Scale-Free Percolation"
 authors:
-- me
-date: "2019-04-07T00:00:00Z"
+- Andrée Barnier
+- Patrick Hoscheit
+- Michele Salvi
+- Elisabeta Vergu 
+date: "2025-05-14"
+doi: "https://doi.org/10.48550/arXiv.2505.10582"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: ""
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["preprint"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We consider the contact process on scale-free percolation, a spatial random graph model where the degree distribution of the vertices follows a power law with exponent β. We study the extinction time τGn of the contact process on the graph restricted to a d-dimensional box of volume n, starting from full occupancy. In the regime β∈(2,3), where the degrees have finite mean but infinite variance and the graph exhibits the ultra-small world behaviour, we adapt the techniques of [Linker et al., 2021] to show that τGn is exponential in n. Our main contribution, though, deals with the case β≥3, where the degrees have finite variance and the graph is small-world. We prove that also in this case τGn grows exponentially, at least up to a logarithmic correction reflecting the sparser graph structure. The proof requires the generalization of a result from [Mountford et al., 2016] and combines a multi-scale analysis of the graph, the study of the chemical distance between vertices and percolation arguments.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
-tags:
-- Large Language Models
+# tags:
+# - Large Language Models
 
 featured: true
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
-
 links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
+- name: Custom Link
   url: http://example.org
+url_pdf: https://arxiv.org/pdf/2505.10582
+# url_code: ''
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
-  focal_point: ""
-  preview_only: false
+# # Featured image
+# # To use, add an image named `featured.jpg/png` to your page's folder. 
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+#   focal_point: ""
+#   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/projects/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- internal-project
+# # Associated Projects (optional).
+# #   Associate this publication with one or more of your projects.
+# #   Simply enter your project's folder or file name without extension.
+# #   E.g. `internal-project` references `content/project/internal-project/index.md`.
+# #   Otherwise, set `projects: []`.
+# projects:
+# - internal-project
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+# # Slides (optional).
+# #   Associate this publication with Markdown slides.
+# #   Simply enter your slide deck's filename without extension.
+# #   E.g. `slides: "example"` references `content/slides/example/index.md`.
+# #   Otherwise, set `slides: ""`.
+# slides: example
 ---
 
 This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.

@@ -26,33 +26,6 @@ sections:
         shape: "circle"
     ce: "section-8ae7ba26"
     As: "section-7069befc"
-  - block: "markdown"
-    content:
-      title: "📚 My Research"
-      subtitle: ""
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
-    design:
-      columns: "1"
-    ce: "section-53058c39"
-    As: "section-8fbebc64"
-  - block: "collection"
-    content:
-      title: "Featured Publications"
-      filters:
-        folders:
-          - "publications"
-        featured_only: true
-    design:
-      view: "article-grid"
-      columns: 2
-    ce: "section-papers"
-    id: "papers"
-    As: "section-57b06665"
   - block: "collection"
     content:
       title: "Recent Publications"
@@ -72,38 +45,13 @@ sections:
         folders:
           - "events"
     design:
-      view: "card"
+      view: "compact"
+      fill_image: false
+      columns: 4
+      # css_style: "max-height: 30vh"
     ce: "section-talks"
     id: "talks"
     As: "section-3218d076"
-  - block: "collection"
-    content:
-      title: "Recent News"
-      subtitle: ""
-      text: ""
-      page_type: "blog"
-      count: 10
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      offset: 0
-      order: "desc"
-    design:
-      view: "card"
-      spacing:
-        padding:
-          - 0
-          - 0
-          - 0
-          - 0
-    ce: "section-news"
-    id: "news"
-    As: "section-eafb91d5"
   - block: "cta-card"
     demo: true
     content:

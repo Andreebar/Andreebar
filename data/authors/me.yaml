@@ -7,52 +7,38 @@ name:
   family: "Barnier"
   alternate: ""
   pronunciation: ""
-  # pronouns: "she/him"
 postnominals:
   - "PhD"
-  # - "MIEEE"
-status:
-  # icon: "☕️"
+status: null
 role: "PhD in applied mathematics"
 bio: "I am PhD student in mathematics in INRAE, Jouy-en-josas working under the supervision of Estelle Kuhn et Patrick Hoscheit. I am intrested in probability theory, more precisely, I work with the contact process on a spatialized random graph model."
-# affiliations:
-#   - name: "Meta AI"
-#     url: "https://ai.meta.com/"
 links:
-  - icon: at-symbol
-    url: 'barnier.andree@gmail.com'
-    # label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
-  # - icon: brands/github
-  #   url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/andree-barnier-233157162/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/0009-0008-3575-5565
+  - icon: "at-symbol"
+    url: "barnier.andree@gmail.com"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/andree-barnier-233157162/"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0009-0008-3575-5565"
 interests:
   - "Large Language Models"
   - "Computer Vision"
   - "Reinforcement Learning"
   - "AI Ethics"
 education:
-  - degree: PhD in applied mathematics
-    institution: INRAE, Université Paris-Saclay
-    date_start: 2022-10-01
-    date_end: ''
-    summary: |
-      Les mouvements commerciaux d’animaux constituent un vecteur privilégié pour la propagation de maladies infectieuses. En France, les exigences de traçabilité se sont traduites par la mise en place de bases de données nationales de suivi des animaux. Dans cette thèse, nous étudierons des modèles de graphes aléatoires spatialement explicites permettant de reproduire les interactions à courte et longue distance constatées empiriquement dans les mouvements commerciaux d’animaux. Nous nous placerons dans le cadre des réseaux scale-free percolation (SFP), qui combinent une inhomogénéité intrinsèque des nœuds avec un aléa dépendant de leur distance géographique. Nous établirons rigoureusement des relations générales entre les propriétés génératives du réseau (distance géographique et relations commerciales) et les caractéristiques des processus épidémiques qui s’y propagent. Nous combinerons ensuite les données de mouvements d’animaux avec des informations géographiques de haute résolution (SIG) pour aboutir à une représentation spatialisée des réseaux commerciaux d’animaux d’élevage permettant la calibration des modèles de graphes étudiés et l’étude de scénarios épidémiques variés.
+  - degree: "PhD in applied mathematics"
+    institution: "INRAE, Université Paris-Saclay"
+    date_start: "2022-10-01"
+    date_end: ""
+    summary: "Les mouvements commerciaux d’animaux constituent un vecteur privilégié pour la propagation de maladies infectieuses. En France, les exigences de traçabilité se sont traduites par la mise en place de bases de données nationales de suivi des animaux. Dans cette thèse, nous étudierons des modèles de graphes aléatoires spatialement explicites permettant de reproduire les interactions à courte et longue distance constatées empiriquement dans les mouvements commerciaux d’animaux. Nous nous placerons dans le cadre des réseaux scale-free percolation (SFP), qui combinent une inhomogénéité intrinsèque des nœuds avec un aléa dépendant de leur distance géographique. Nous établirons rigoureusement des relations générales entre les propriétés génératives du réseau (distance géographique et relations commerciales) et les caractéristiques des processus épidémiques qui s’y propagent. Nous combinerons ensuite les données de mouvements d’animaux avec des informations géographiques de haute résolution (SIG) pour aboutir à une représentation spatialisée des réseaux commerciaux d’animaux d’élevage permettant la calibration des modèles de graphes étudiés et l’étude de scénarios épidémiques variés.\n"
     button:
-      text: 'Read Thesis'
-      url: 'https://maiage.inrae.fr/fr/node/2558'
-  - degree: MSc in applied mathematics
-    institution: Université Paris Dauphine-PSL
-    date_start: 2021-09-01
-    date_end: 2022-07-30
+      text: "Read Thesis"
+      url: "https://maiage.inrae.fr/fr/node/2558"
+  - degree: "MSc in applied mathematics"
+    institution: "Université Paris Dauphine-PSL"
+    date_start: "2021-09-01"
+    date_end: "2022-07-30"
     summary: ""
   - degree: MSc in advance mathematics
     institution: Universidad Complutense de Madrid
@@ -64,53 +50,16 @@ education:
     date_start: 2017-09-01
     date_end: 2018-07-30
     summary: ""
-# experience:
-  # - role: "Senior AI Research Scientist"
-  #   org: "Meta AI"
-  #   start: "2020-01-01"
-  #   summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
-  #   button:
-  #     text: "View portfolio"
-  #     url: "/"
-  #     icon: "hero/arrow-down-tray"
-  # - role: "AI Research Intern"
-  #   org: "OpenAI"
-  #   start: "2019-06-01"
-  #   end: "2019-12-31"
-  #   summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
-# skills:
-#   - name: "Technical Skills"
-#     items:
-#       - label: "Python"
-#         level: 5
-#       - label: "Machine Learning"
-#         level: 5
-#       - label: "Cloud Computing"
-#         level: 4
-#   - name: "Research & Communication"
-#     items:
-#       - label: "Academic Writing"
-#         level: 5
-#       - label: "Conference Presentations"
-#         level: 4
-#       - label: "Grant Proposals"
-#         level: 4
 languages:
-  - name: French
+  - name: "French"
     level: 5
     label: "Native"
-  - name: Spanish
+  - name: "Spanish"
     level: 5
     label: "Native"
-  - name: English
+  - name: "English"
     level: 4
     label: "Fluent"
   - name: "Italian"
     level: 1
     label: "Beginner"
-# awards:
-#   - title: "Best Paper Award"
-#     awarder: "NeurIPS"
-#     date: "2022-12-01"
-#     summary: "Awarded for groundbreaking work on efficient training of large models."
-#     icon: "hero/trophy"
