@@ -11,7 +11,10 @@ postnominals:
   - "PhD"
 status: null
 role: "PhD in applied mathematics"
-bio: "I am PhD student in mathematics in INRAE, Jouy-en-josas working under the supervision of Estelle Kuhn et Patrick Hoscheit. I am intrested in probability theory, more precisely, I work with the contact process on a spatialized random graph model."
+bio: |
+  I am an applied mathematician and my research focuses on modelling complex systems using probabilistic and statistical tools. 
+  
+  I completed my PhD at MaIAGE, INRAE under the supervision of [Patrick Hoshceit](https://genome.jouy.inra.fr/~phoscheit/), Elisabeta Vergu and [Estelle Khun](https://maiage.inrae.fr/estelle-kuhn), where I focused on developing spatialised probabilistic models to model the commercial cattle network in France using random graph models. I was particularly interested in the spread of epidemics on random graphs, as well as parameter inference using approximate statistical methods based on simulations.
 links:
   - icon: "at-symbol"
     url: "barnier.andree@gmail.com"
@@ -22,10 +25,13 @@ links:
   - icon: "academicons/orcid"
     url: "https://orcid.org/0009-0008-3575-5565"
 interests:
-  - "Large Language Models"
-  - "Computer Vision"
-  - "Reinforcement Learning"
-  - "AI Ethics"
+  - "Stochastic models"
+  - "Spatial modelling"
+  - "Graph theory"
+  - "Statistical inference"
+  - "Complex systems"
+  - "Epidemiology"
+  - "Biological systems"
 education:
   - degree: "PhD in applied mathematics"
     institution: "INRAE, Université Paris-Saclay"
@@ -34,21 +40,21 @@ education:
     summary: "Les mouvements commerciaux d’animaux constituent un vecteur privilégié pour la propagation de maladies infectieuses. En France, les exigences de traçabilité se sont traduites par la mise en place de bases de données nationales de suivi des animaux. Dans cette thèse, nous étudierons des modèles de graphes aléatoires spatialement explicites permettant de reproduire les interactions à courte et longue distance constatées empiriquement dans les mouvements commerciaux d’animaux. Nous nous placerons dans le cadre des réseaux scale-free percolation (SFP), qui combinent une inhomogénéité intrinsèque des nœuds avec un aléa dépendant de leur distance géographique. Nous établirons rigoureusement des relations générales entre les propriétés génératives du réseau (distance géographique et relations commerciales) et les caractéristiques des processus épidémiques qui s’y propagent. Nous combinerons ensuite les données de mouvements d’animaux avec des informations géographiques de haute résolution (SIG) pour aboutir à une représentation spatialisée des réseaux commerciaux d’animaux d’élevage permettant la calibration des modèles de graphes étudiés et l’étude de scénarios épidémiques variés.\n"
     button:
       text: "Read Thesis"
-      url: "https://maiage.inrae.fr/fr/node/2558"
+      url: "https://theses.fr/2025UPASM050"
   - degree: "MSc in applied mathematics"
     institution: "Université Paris Dauphine-PSL"
     date_start: "2021-09-01"
     date_end: "2022-07-30"
     summary: ""
-  - degree: MSc in advance mathematics
-    institution: Universidad Complutense de Madrid
-    date_start: 2020-09-01
-    date_end: 2021-07-30
+  - degree: "MSc in advance mathematics"
+    institution: "Universidad Complutense de Madrid"
+    date_start: "2020-09-01"
+    date_end: "2021-07-30"
     summary: ""
-  - degree: BSc in Mathematics
-    institution: Sorbonne université
-    date_start: 2017-09-01
-    date_end: 2018-07-30
+  - degree: "BSc in Mathematics"
+    institution: "Sorbonne université"
+    date_start: "2017-09-01"
+    date_end: "2018-07-30"
     summary: ""
 languages:
   - name: "French"

@@ -20,7 +20,3 @@ main:
     identifier: a5d32179
     url: /#talks
     weight: 40
-  - name: Courses
-    identifier: 3d5884e4
-    url: courses/
-    weight: 50
