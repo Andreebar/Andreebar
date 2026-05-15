@@ -12,9 +12,9 @@ postnominals:
 status: null
 role: "PhD in applied mathematics"
 bio: |
-  I am an applied mathematician and my research focuses on modelling complex systems using probabilistic and statistical tools. 
+  I am an applied mathematician who is passionate about modelling complex systems using probabilistic and statistical tools. 
   
-  I completed my PhD at MaIAGE, INRAE under the supervision of [Patrick Hoshceit](https://genome.jouy.inra.fr/~phoscheit/), Elisabeta Vergu and [Estelle Khun](https://maiage.inrae.fr/estelle-kuhn), where I focused on developing spatialised probabilistic models to model the commercial cattle network in France using random graph models. I was particularly interested in the spread of epidemics on random graphs, as well as parameter inference using approximate statistical methods based on simulations.
+  During my PhD at MaIAGE, INRAE under the supervision of [Patrick Hoshceit](https://genome.jouy.inra.fr/~phoscheit/), Elisabeta Vergu and [Estelle Khun](https://maiage.inrae.fr/estelle-kuhn), I focused on developing spatialy embedded probabilistic models to help understand the commercial cattle network in France using random graph models. I was particularly interested in the spread of epidemics on random graphs, as well as parameter inference using approximate statistical methods based on simulations.
 links:
   - icon: "at-symbol"
     url: "barnier.andree@gmail.com"
