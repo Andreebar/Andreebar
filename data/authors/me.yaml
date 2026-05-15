@@ -1,116 +1,116 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Andrée Barnier"
+  given: "Andrée"
+  family: "Barnier"
+  alternate: ""
+  pronunciation: ""
+  # pronouns: "she/him"
 postnominals:
-  - PhD
-  - MIEEE
+  - "PhD"
+  # - "MIEEE"
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+  # icon: "☕️"
+role: "PhD in applied mathematics"
+bio: "I am PhD student in mathematics in INRAE, Jouy-en-josas working under the supervision of Estelle Kuhn et Patrick Hoscheit. I am intrested in probability theory, more precisely, I work with the contact process on a spatialized random graph model."
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: "Meta AI"
+    url: "https://ai.meta.com/"
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+    url: 'barnier.andree@gmail.com'
+    # label: E-mail Me
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
+  # - icon: brands/github
+  #   url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/andree-barnier-233157162/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+    url: https://orcid.org/0009-0008-3575-5565
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - "Large Language Models"
+  - "Computer Vision"
+  - "Reinforcement Learning"
+  - "AI Ethics"
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in applied mathematics
+    institution: INRAE, Université Paris-Saclay
+    date_start: 2022-10-01
+    date_end: ''
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Les mouvements commerciaux d’animaux constituent un vecteur privilégié pour la propagation de maladies infectieuses. En France, les exigences de traçabilité se sont traduites par la mise en place de bases de données nationales de suivi des animaux. Dans cette thèse, nous étudierons des modèles de graphes aléatoires spatialement explicites permettant de reproduire les interactions à courte et longue distance constatées empiriquement dans les mouvements commerciaux d’animaux. Nous nous placerons dans le cadre des réseaux scale-free percolation (SFP), qui combinent une inhomogénéité intrinsèque des nœuds avec un aléa dépendant de leur distance géographique. Nous établirons rigoureusement des relations générales entre les propriétés génératives du réseau (distance géographique et relations commerciales) et les caractéristiques des processus épidémiques qui s’y propagent. Nous combinerons ensuite les données de mouvements d’animaux avec des informations géographiques de haute résolution (SIG) pour aboutir à une représentation spatialisée des réseaux commerciaux d’animaux d’élevage permettant la calibration des modèles de graphes étudiés et l’étude de scénarios épidémiques variés.
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+      text: 'Read Thesis'
+      url: 'https://maiage.inrae.fr/fr/node/2558'
+  - degree: MSc in applied mathematics
+    institution: Université Paris Dauphine-PSL
+    date_start: 2021-09-01
+    date_end: 2022-07-30
+    summary: ""
+  - degree: MSc in advance mathematics
+    institution: Universidad Complutense de Madrid
+    date_start: 2020-09-01
+    date_end: 2021-07-30
+    summary: ""
+  - degree: BSc in Mathematics
+    institution: Sorbonne université
+    date_start: 2017-09-01
+    date_end: 2018-07-30
+    summary: ""
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+  # - role: "Senior AI Research Scientist"
+  #   org: "Meta AI"
+  #   start: "2020-01-01"
+  #   summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
+  #   button:
+  #     text: "View portfolio"
+  #     url: "/"
+  #     icon: "hero/arrow-down-tray"
+  # - role: "AI Research Intern"
+  #   org: "OpenAI"
+  #   start: "2019-06-01"
+  #   end: "2019-12-31"
+  #   summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
 skills:
-  - name: Technical Skills
+  - name: "Technical Skills"
     items:
-      - label: Python
+      - label: "Python"
         level: 5
-      - label: Machine Learning
+      - label: "Machine Learning"
         level: 5
-      - label: Cloud Computing
+      - label: "Cloud Computing"
         level: 4
-  - name: Research & Communication
+  - name: "Research & Communication"
     items:
-      - label: Academic Writing
+      - label: "Academic Writing"
         level: 5
-      - label: Conference Presentations
+      - label: "Conference Presentations"
         level: 4
-      - label: Grant Proposals
+      - label: "Grant Proposals"
         level: 4
-
 languages:
-  - name: English
+  - name: French
     level: 5
-    label: Native
+    label: "Native"
   - name: Spanish
+    level: 5
+    label: "Native"
+  - name: English
     level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+    label: "Fluent"
+  - name: "Italian"
+    level: 1
+    label: "Beginner"
+# awards:
+#   - title: "Best Paper Award"
+#     awarder: "NeurIPS"
+#     date: "2022-12-01"
+#     summary: "Awarded for groundbreaking work on efficient training of large models."
+#     icon: "hero/trophy"
