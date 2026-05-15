@@ -15,9 +15,9 @@ status:
   # icon: "☕️"
 role: "PhD in applied mathematics"
 bio: "I am PhD student in mathematics in INRAE, Jouy-en-josas working under the supervision of Estelle Kuhn et Patrick Hoscheit. I am intrested in probability theory, more precisely, I work with the contact process on a spatialized random graph model."
-affiliations:
-  - name: "Meta AI"
-    url: "https://ai.meta.com/"
+# affiliations:
+#   - name: "Meta AI"
+#     url: "https://ai.meta.com/"
 links:
   - icon: at-symbol
     url: 'barnier.andree@gmail.com'
@@ -64,7 +64,7 @@ education:
     date_start: 2017-09-01
     date_end: 2018-07-30
     summary: ""
-experience:
+# experience:
   # - role: "Senior AI Research Scientist"
   #   org: "Meta AI"
   #   start: "2020-01-01"
@@ -78,23 +78,23 @@ experience:
   #   start: "2019-06-01"
   #   end: "2019-12-31"
   #   summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
-skills:
-  - name: "Technical Skills"
-    items:
-      - label: "Python"
-        level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
-        level: 4
-  - name: "Research & Communication"
-    items:
-      - label: "Academic Writing"
-        level: 5
-      - label: "Conference Presentations"
-        level: 4
-      - label: "Grant Proposals"
-        level: 4
+# skills:
+#   - name: "Technical Skills"
+#     items:
+#       - label: "Python"
+#         level: 5
+#       - label: "Machine Learning"
+#         level: 5
+#       - label: "Cloud Computing"
+#         level: 4
+#   - name: "Research & Communication"
+#     items:
+#       - label: "Academic Writing"
+#         level: 5
+#       - label: "Conference Presentations"
+#         level: 4
+#       - label: "Grant Proposals"
+#         level: 4
 languages:
   - name: French
     level: 5
