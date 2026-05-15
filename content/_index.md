@@ -45,7 +45,7 @@ sections:
         folders:
           - "events"
     design:
-      view: "list"
+      view: "date-title-summary"
       fill_image: false
       columns: 4
       css_style: "fill_image: false"
