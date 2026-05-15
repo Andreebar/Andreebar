@@ -47,8 +47,7 @@ sections:
     design:
       view: "date-title-summary"
       fill_image: false
-      columns: 3
-      css_style: "max-height: 30vh"
+      columns: 2
     ce: "section-talks"
     id: "talks"
     As: "section-3218d076"
