@@ -45,10 +45,10 @@ sections:
         folders:
           - "events"
     design:
-      view: "slides-gallery"
+      view: "article-grid"
       fill_image: false
       columns: 4
-      css_style: "max-height: 30vh"
+      css_style: "fill_image: false"
     ce: "section-talks"
     id: "talks"
     As: "section-3218d076"

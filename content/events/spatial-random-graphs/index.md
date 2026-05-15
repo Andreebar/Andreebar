@@ -20,7 +20,7 @@ tags:
   - Poster
   - SFP
   - Contact process
-featured: false
+featured: true
 # image:
 #   caption: Optional image credit (Markdown supported)
 #   focal_point: Center
