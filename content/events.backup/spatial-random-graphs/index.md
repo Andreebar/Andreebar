@@ -21,10 +21,22 @@ tags:
   - SFP
   - Contact process
 featured: true
+# image:
+#   caption: Optional image credit (Markdown supported)
+#   focal_point: Center
+# links:
+#   - icon: brands/github
+#     name: Demo or code
+#     url: ""
+#   - icon: brands/youtube
+#     name: Recording
+#     url: ""
+#   - icon: book-open
+#     name: Documentation
+#     url: ""
 slides: ""
 projects: []
-event_start: 2026-05-15T12:57:31.939Z
----
 
+---
 
 <!-- Add the talk outline, prerequisites, and how people can join. -->
