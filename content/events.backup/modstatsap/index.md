@@ -24,8 +24,7 @@ image:
   focal_point: Center
 slides: ""
 projects: []
-event_start: 2024-05-16
----
 
+---
 
 <!-- Add the talk outline, prerequisites, and how people can join. -->
