@@ -1,31 +1,30 @@
 ---
-title: ModStat SAP network
-date: 2024-05-16
+title: Unit seminar Modal'X
+date: 2024-11-21
 draft: false
-event_name: ModStat SAP network
-event_url: https://reseau-modstatsap.mathnum.inrae.fr
-location: Paris, France
+event_name: Conference, meetup, or seminar name
+event_url: https://modalx.parisnanterre.fr/seminaires/seminaire-modalx-andree-barnier-maiage
+location: Université Paris Nanterre
 address:
   street: ""
   city: ""
   region: ""
   postcode: ""
-  country: ""
-summary: 5 minutes presentation of my work.
+  country: France
+summary: Unit seminar presentation
 authors:
   - me
 tags:
   - Research Talks
-  - ABC
   - SFP
+  - Contact process
 featured: false
 image:
   caption: Optional image credit (Markdown supported)
   focal_point: Center
 slides: ""
 projects: []
-event_start: 2024-05-16
----
 
+---
 
 <!-- Add the talk outline, prerequisites, and how people can join. -->
