@@ -1,19 +1,9 @@
 name: Upgrade HugoBlox
 
 on:
-  workflow_dispatch:
-    inputs:
-      version_type:
-        description: 'Upgrade to version'
-        required: true
-        default: 'Stable'
-        type: choice
-        options:
-        - Stable
-        - Beta (Preview)
-  schedule:
-    # Run at 05:00 on Monday
-    - cron: '0 5 * * 1'
+  workflow_dispatch:   # keep manual trigger
+  # schedule:          # remove/comment out the cron trigger
+  #   - cron: '0 5 * * 1'
 
 permissions:
   contents: write
