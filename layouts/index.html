@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{ $me := hugo.Data.authors.me }}
+<section class="hero">
+  <div class="container hero-grid">
+    <aside class="hero-side">
+      {{ with resources.Get "images/me.jpg" }}
+        {{ $img := .Resize "400x" }}
+        <img class="avatar" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $me.name.display }}">
+      {{ end }}
+      <h1 class="name">{{ $me.name.display }}</h1>
+      <p class="role">{{ $me.role }}<br><a class="affiliation" href="{{ $me.affiliation.url }}" target="_blank" rel="noopener">{{ $me.affiliation.name }}</a></p>
+      {{ partial "social.html" $me.links }}
+    </aside>
+    <div class="hero-main">
+      <h2 class="section-title">{{ partial "icon.html" "id" }} <span>About me</span></h2>
+      <div class="bio">{{ $me.bio | markdownify }}</div>
+      <a class="btn-primary" href="{{ "uploads/resume.pdf" | relURL }}">{{ partial "icon.html" "file" }} Download CV</a>
+
+      <h2 class="section-title">{{ partial "icon.html" "sparkles" }} <span>Interests</span></h2>
+      <ul class="chips">
+        {{ range $me.interests }}<li>{{ . }}</li>{{ end }}
+      </ul>
+
+      <h2 class="section-title">{{ partial "icon.html" "cap" }} <span>Education</span></h2>
+      <div class="edu-grid">
+        {{ range $me.education }}
+        <div class="card">
+          <span class="card-icon">{{ partial "icon.html" "cap" }}</span>
+          <h3>{{ .degree }}</h3>
+          <p class="muted">{{ .institution }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="papers">
+  <div class="container narrow">
+    <h2 class="center">Recent Publications</h2>
+    {{ range sort (where site.RegularPages "Section" "publications") "Date" "desc" }}
+      {{ partial "pub-citation.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

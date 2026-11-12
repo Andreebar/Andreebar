@@ -11,9 +11,6 @@ address:
   region: ""
   postcode: ""
   country: France
-summary: Why attend? State the value for participants.
-abstract: |
-  Add the talk synopsis, key results, and logistics.
 authors:
   - me
 tags:

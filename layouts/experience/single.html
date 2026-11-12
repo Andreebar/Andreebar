@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $me := hugo.Data.authors.me }}
+<section class="page container narrow">
+  <h2 class="section-title">{{ partial "icon.html" "cap" }} <span>Education</span></h2>
+  {{ range $me.education }}
+  <div class="cv-item">
+    <h3>{{ .degree }}</h3>
+    <p class="muted">{{ .institution }}</p>
+    <p class="muted small">{{ dateFormat "January 2006" .date_start }} – {{ with .date_end }}{{ dateFormat "January 2006" . }}{{ else }}Present{{ end }}</p>
+    {{ with .summary }}<p>{{ . }}</p>{{ end }}
+    {{ with .button }}<a class="btn-outline" href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $me.languages }}
+  <h2 class="section-title"><span>Languages</span></h2>
+  <ul class="plain">
+    {{ range . }}<li>{{ .name }} <span class="muted">— {{ .label }}</span></li>{{ end }}
+  </ul>
+  {{ end }}
+</section>
+{{ end }}

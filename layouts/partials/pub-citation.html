@@ -1,0 +1,9 @@
+<article class="pub">
+  <p>{{ delimit .Params.authors ", " }} ({{ .Date.Format "2006" }}). <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
+  {{ if or .Params.doi .Params.pdf }}
+  <p class="pub-links">
+    {{ with .Params.doi }}<a href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "link" }} DOI</a>{{ end }}
+    {{ with .Params.pdf }}<a href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "file" }} PDF</a>{{ end }}
+  </p>
+  {{ end }}
+</article>

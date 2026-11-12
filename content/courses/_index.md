@@ -1,28 +1,11 @@
 ---
-title: Courses
-summary: My courses
-type: landing
-
-cascade:
-  - target:
-      path: '{/courses/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: true
-
-sections:
-  - block: collection
-    id: courses
-    content:
-      title: Courses
-      filters:
-        tag: Course
-        kinds:
-          - section
-    design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
+title: "Courses"
 ---
+
+## (2023 - 2025) Mathématiques 2 - Polytech ParisSaclay
+
+Première année du cycle préparatoire ingénieur (PeiP).
+ 
+- Séances d’exercices en calcul différentiel et intégral, algèbre linéaire.
+- Surveillance d’examens et correction des copies.
+- 60 heures par an : 54 heures d’enseignement en présentiel et 6 heures de travaux pratiques en Python.

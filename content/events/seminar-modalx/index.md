@@ -2,7 +2,7 @@
 title: Unit seminar Modal'X
 date: 2024-11-21
 draft: false
-event_name: Conference, meetup, or seminar name
+event_name: Unit seminar Modal'X
 event_url: https://modalx.parisnanterre.fr/seminaires/seminaire-modalx-andree-barnier-maiage
 location: Université Paris Nanterre
 address:

@@ -1,0 +1,35 @@
+# Site configuration. Hugo reads this file from the repository root.
+baseURL: 'https://andreebar.github.io/Andreebar/'
+title: 'Andrée Barnier'
+locale: 'en-us'
+removePathAccents: true
+enableRobotsTXT: true
+
+taxonomies:
+  tag: tags
+  publication_type: publication_types
+
+outputs:
+  home: [HTML, RSS, JSON]
+  section: [HTML, RSS]
+
+menus:
+  main:
+    - name: Bio
+      url: /
+      weight: 10
+    - name: Papers
+      url: /#papers
+      weight: 20
+    - name: CV
+      url: /experience/
+      weight: 30
+    - name: Talks
+      url: /events/
+      weight: 40
+    - name: Courses
+      url: /courses/
+      weight: 50
+
+params:
+  description: "I am PhD student in mathematics in INRAE, Jouy-en-josas working under the supervision of Estelle Kuhn et Patrick Hoscheit. I am intrested in probability theory"

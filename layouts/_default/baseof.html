@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-us" data-index="{{ "index.json" | relURL }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <meta name="author" content="{{ hugo.Data.authors.me.name.display }}">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ site.Title }}">
+  <link rel="preload" href="{{ "fonts/Inter.var.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    })();
+  </script>
+  <script src="{{ "js/site.js" | relURL }}" defer></script>
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

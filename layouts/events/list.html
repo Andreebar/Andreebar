@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="page container narrow">
+  <h1>{{ .Title }}</h1>
+  {{ range sort .Pages "Date" "desc" }}
+  <article class="event-card">
+    {{ with index .Params.tags 0 }}<p class="tag">{{ . }}</p>{{ end }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
+    <p class="muted small">{{ hugo.Data.authors.me.name.display }} · {{ if eq (.Date.Format "15:04") "00:00" }}{{ .Date.Format "January 2, 2006" }}{{ else }}{{ .Date.Format "January 2, 2006 3:04 PM" }}{{ end }}</p>
+    <a class="more" href="{{ .RelPermalink }}">Read more {{ partial "icon.html" "arrow" }}</a>
+  </article>
+  {{ end }}
+</section>
+{{ end }}

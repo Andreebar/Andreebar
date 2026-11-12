@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ "/" | relURL }}">{{ hugo.Data.authors.me.name.display }}</a>
+    <nav class="menu" aria-label="Main">
+      {{ range site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}
+    </nav>
+    <div class="header-actions">
+      <button type="button" class="icon-btn" id="search-toggle" aria-label="Search" aria-expanded="false" aria-controls="search-panel">{{ partial "icon.html" "search" }}</button>
+      <button type="button" class="icon-btn" id="theme-toggle" aria-label="Switch light and dark theme">
+        <span class="icon-sun">{{ partial "icon.html" "sun" }}</span>
+        <span class="icon-moon">{{ partial "icon.html" "moon" }}</span>
+      </button>
+    </div>
+  </div>
+  <div class="search-panel" id="search-panel" hidden>
+    <div class="container">
+      <input type="search" id="search-input" placeholder="Search publications, talks and pages" aria-label="Search" autocomplete="off">
+      <ul class="search-results" id="search-results"></ul>
+    </div>
+  </div>
+</header>

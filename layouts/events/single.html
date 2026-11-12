@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $me := hugo.Data.authors.me }}
+<article class="page container narrow">
+  <h1>{{ .Title }}</h1>
+  <p class="muted">{{ .Date.Format "January 2, 2006" }} · {{ $me.name.display }}</p>
+
+  <dl class="facts">
+    {{ with .Params.abstract }}<dt>Abstract</dt><dd>{{ . }}</dd>{{ else with .Params.summary }}<dt>Abstract</dt><dd>{{ . }}</dd>{{ end }}
+    <dt>Date</dt><dd>{{ if eq (.Date.Format "15:04") "00:00" }}{{ .Date.Format "January 2, 2006" }}{{ else }}{{ .Date.Format "January 2, 2006 3:04 PM" }}{{ end }}</dd>
+    {{ with .Params.event_name }}<dt>Event</dt><dd>{{ with $.Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $.Params.event_name }}</a>{{ else }}{{ . }}{{ end }}</dd>{{ end }}
+    {{ with .Params.location }}<dt>Location</dt><dd>{{ . }}</dd>{{ end }}
+  </dl>
+
+  {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
+
+  {{ with .Params.tags }}
+  <ul class="chips">{{ range . }}<li>{{ . | title }}</li>{{ end }}</ul>
+  {{ end }}
+
+  {{/* <div class="author-card">
+    {{ with resources.Get "images/me.jpg" }}
+      {{ $img := .Resize "160x" }}
+      <img class="avatar-sm" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $me.name.display }}">
+    {{ end }}
+    <div>
+      <p class="muted small">AUTHORS</p>
+      <p class="author-name">{{ $me.name.display }}</p>
+      <p class="role small">{{ $me.role }}<br><a href="{{ $me.affiliation.url }}" target="_blank" rel="noopener">{{ $me.affiliation.name }}</a></p>
+      <div class="muted">{{ $me.bio | markdownify }}</div>
+      {{ partial "social.html" $me.links }}
+    </div>
+  </div> */}}
+
+  <nav class="pager">
+    {{ with .NextInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+    {{ with .PrevInSection }}<a class="next" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+  </nav>
+</article>
+{{ end }}

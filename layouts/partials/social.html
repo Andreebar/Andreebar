@@ -1,0 +1,16 @@
+{{- /* Contact and profile icons from data/authors/me.yaml (links). */ -}}
+<ul class="social">
+  {{ range . }}
+  {{ $href := .url }}
+  {{ if and (in .url "@") (not (in .url "://")) }}{{ $href = printf "mailto:%s" .url }}{{ end }}
+  <li>
+    <a href="{{ $href }}" aria-label="{{ .icon }}" {{ if not (in $href "mailto:") }}target="_blank" rel="noopener"{{ end }}>
+      {{- if eq .icon "at-symbol" }}@
+      {{- else if eq .icon "brands/linkedin" }}in
+      {{- else if eq .icon "academicons/google-scholar" }}G
+      {{- else if eq .icon "academicons/orcid" }}iD
+      {{- else }}•{{ end -}}
+    </a>
+  </li>
+  {{ end }}
+</ul>

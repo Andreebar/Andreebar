@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="page container narrow">
+  <h1>{{ .Title }}</h1>
+  <p class="muted">{{ .Date.Format "January 2, 2006" }} · {{ delimit .Params.authors ", " }}</p>
+  {{ with .Params.abstract }}
+  <h2>Abstract</h2>
+  <p>{{ . }}</p>
+  {{ end }}
+  {{ .Content }}
+  <dl class="facts">
+    {{ with .Params.publication_types }}<dt>Type</dt><dd>{{ index . 0 | title }}</dd>{{ end }}
+  </dl>
+  {{ if or .Params.doi .Params.pdf }}
+  <p class="pub-links">
+    {{ with .Params.doi }}<a href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "link" }} DOI</a>{{ end }}
+    {{ with .Params.pdf }}<a href="{{ . }}" target="_blank" rel="noopener">{{ partial "icon.html" "file" }} PDF</a>{{ end }}
+  </p>
+  {{ end }}
+</article>
+{{ end }}
